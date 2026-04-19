@@ -6,4 +6,5 @@ node_modules/
 # AI agent / local-only docs
 CLAUDE.md
 docs/
+.exclude
 
