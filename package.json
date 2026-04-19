@@ -4,7 +4,7 @@
   "description": "Local HTTP proxy that wraps the Claude CLI so any app can reuse a Claude Pro/Max subscription.",
   "main": "server.js",
   "bin": {
-    "claude-bridge": "./server.js"
+    "claude-bridge": "server.js"
   },
   "files": [
     "server.js",
