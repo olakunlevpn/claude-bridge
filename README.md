@@ -3,7 +3,6 @@
 [![npm version](https://img.shields.io/npm/v/@olakunlevpn/claude-bridge.svg?style=flat-square)](https://www.npmjs.com/package/@olakunlevpn/claude-bridge)
 [![Tests](https://img.shields.io/github/actions/workflow/status/Olakunlevpn/claude-bridge/ci.yml?branch=main&style=flat-square&label=tests)](https://github.com/Olakunlevpn/claude-bridge/actions)
 [![Total downloads](https://img.shields.io/npm/dt/@olakunlevpn/claude-bridge.svg?style=flat-square)](https://www.npmjs.com/package/@olakunlevpn/claude-bridge)
-[![Monthly downloads](https://img.shields.io/npm/dm/@olakunlevpn/claude-bridge.svg?style=flat-square)](https://www.npmjs.com/package/@olakunlevpn/claude-bridge)
 [![License](https://img.shields.io/github/license/Olakunlevpn/claude-bridge.svg?style=flat-square)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/Olakunlevpn/claude-bridge.svg?style=flat-square)](https://github.com/Olakunlevpn/claude-bridge)
 
