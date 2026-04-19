@@ -1,0 +1,21 @@
+{
+  "name": "claude-bridge",
+  "version": "1.2.0",
+  "description": "Local HTTP proxy that wraps the Claude CLI so any app can reuse a Claude Pro/Max subscription.",
+  "main": "server.js",
+  "bin": {
+    "claude-bridge": "./server.js"
+  },
+  "files": [
+    "server.js",
+    "README.md",
+    "LICENSE",
+    ".env.example"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
