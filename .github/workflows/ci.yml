@@ -62,13 +62,5 @@ jobs:
             exit 1
           fi
 
-      - name: Debug OIDC claims
-        run: |
-          TOKEN=$(curl -sSL -H "Authorization: Bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
-            "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=npm")
-          PAYLOAD=$(echo "$TOKEN" | jq -r '.value' | cut -d. -f2)
-          PAD=$(printf '%0.s=' $(seq 1 $((4 - ${#PAYLOAD} % 4))))
-          echo "$PAYLOAD$PAD" | base64 -d 2>/dev/null | jq '{iss, sub, repository, repository_owner, workflow_ref, job_workflow_ref, ref, ref_type, environment}' || echo "claims decode failed"
-
       - name: Publish to npm
         run: npm publish --access public --provenance
