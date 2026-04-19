@@ -4,7 +4,7 @@
 [![Tests](https://img.shields.io/github/actions/workflow/status/Olakunlevpn/claude-bridge/ci.yml?branch=main&style=flat-square&label=tests)](https://github.com/Olakunlevpn/claude-bridge/actions)
 [![Total downloads](https://img.shields.io/npm/dt/@olakunlevpn/claude-bridge.svg?style=flat-square)](https://www.npmjs.com/package/@olakunlevpn/claude-bridge)
 [![Monthly downloads](https://img.shields.io/npm/dm/@olakunlevpn/claude-bridge.svg?style=flat-square)](https://www.npmjs.com/package/@olakunlevpn/claude-bridge)
-[![License](https://img.shields.io/npm/l/@olakunlevpn/claude-bridge.svg?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/github/license/Olakunlevpn/claude-bridge.svg?style=flat-square)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/Olakunlevpn/claude-bridge.svg?style=flat-square)](https://github.com/Olakunlevpn/claude-bridge)
 
 A tiny local HTTP proxy in front of the Claude CLI. Any app on your machine can POST a prompt to `http://localhost:8787` and get an answer back — billed against the Claude Pro/Max subscription the CLI is logged into, not against a pay-per-token API key.
